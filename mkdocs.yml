@@ -1,0 +1,9 @@
+extra:
+  version:
+    alias: true
+    provider: mike
+
+site_name: python-template
+
+theme:
+  name: material

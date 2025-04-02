@@ -1,0 +1,38 @@
+{
+  "editor.autoIndent": "keep",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.mypy_cache": true,
+    ".coverage": true,
+    ".pytest_cache": true,
+    ".ruff_cache": true,
+    "coverage.xml": true,
+    "src/logs": true,
+    "test-results.xml": true
+  },
+  "shellcheck.run": "onSave",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.tabSize": 2
+  }
+}
